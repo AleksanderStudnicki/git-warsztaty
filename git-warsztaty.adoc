@@ -51,7 +51,14 @@ image::table.png[]
 
 Reflog to specjalna gałąź, która zapisuje informację o każdej pozycji HEAD w ciągu ostatnich 30 dni. Jest on przechowywany lokalnie, więc utracimy go klonując repozytorium.
 
+https://git-scm.com/docs/git-reflog[]
+
 - Aby wyświelić reflog należy uruchomic komendę `git reflog`
 
 
 == git rerere
+
+Nazwa rerere pochodzi od repeat recorded resolution. Komenda ta znajduje zastowanie przy rozwiązywaniu konfliktów gdy dokonujemy operacji scalania. Zdarza się iż niektóre operacje pozwalające nam rozwiązać konflikt wykonujemy wielokrotnie. Aby zoptymalizować możemy używać wcześniej zarejestrowanych rozwiązań (patrz rozwinięcie skrótowca rerere).
+
+- Aby włączyć rejestrowanie rozwiązań uruchom `git config --global rerere.enabled true`
+- Gdy w Twoim repozytorium wystąpi konflikt i go rozwiążesz, git zapamięta to jako domyślny sposób rozwiązywania tego typu konfliktów. Jeśli w przyszłości wystąpi konflikt tego samego rodzaju (np. na tym samym pliku) to nie będziesz musiał własnoręcznie modyfikować plików/wybierać odpowiedniej wersji.
