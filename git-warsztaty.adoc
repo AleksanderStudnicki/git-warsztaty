@@ -54,6 +54,7 @@ Reflog to specjalna gałąź, która zapisuje informację o każdej pozycji HEAD
 https://git-scm.com/docs/git-reflog[]
 
 - Aby wyświelić reflog należy uruchomic komendę `git reflog`
+- Za pomocą reflog możemy uzyskać informację u kluczu migawki, do której utraciliśmy dostęp wskutek manipulacji HEAD
 
 
 == git rerere
