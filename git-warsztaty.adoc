@@ -18,7 +18,7 @@ https://git-scm.com/book/pl/v2/Git-Tools-Reset-Demystified#_git_reset[]
 - Zaincjalizuj repozytorium
 - Utwórz plik a, b, c
 - Dodaj pliki do repozytorium (`git add .`)
-- Użyj `git status aby sprawdzić co zostało dodane
+- Użyj `git status` aby sprawdzić co zostało dodane
 - Aby cofnąć zmiany (usunąć plik z poczekalni)
 użyj `git reset [pliki]` lub `git reset` aby usunąć wszystkie zmiany
 - Użyj git status aby sprawdzić co się zmieniło
@@ -41,7 +41,7 @@ które zmieniały się w ciągu kolejnych migawek `cat [plik]`. Czy odpowiadają
 
 === Zmiana stanu na pliku na poprzednie migawki
 
--
+- Aby zmienić stan pliku na którąś z poprzednich migawek należy użyć komendy `git reset [identyfikator migawki] [nazwa pliku]`
 
 image::table.png[]
 
@@ -61,4 +61,6 @@ https://git-scm.com/docs/git-reflog[]
 Nazwa rerere pochodzi od repeat recorded resolution. Komenda ta znajduje zastowanie przy rozwiązywaniu konfliktów gdy dokonujemy operacji scalania. Zdarza się iż niektóre operacje pozwalające nam rozwiązać konflikt wykonujemy wielokrotnie. Aby zoptymalizować możemy używać wcześniej zarejestrowanych rozwiązań (patrz rozwinięcie skrótowca rerere).
 
 - Aby włączyć rejestrowanie rozwiązań uruchom `git config --global rerere.enabled true`
-- Gdy w Twoim repozytorium wystąpi konflikt i go rozwiążesz, git zapamięta to jako domyślny sposób rozwiązywania tego typu konfliktów. Jeśli w przyszłości wystąpi konflikt tego samego rodzaju (np. na tym samym pliku) to nie będziesz musiał własnoręcznie modyfikować plików/wybierać odpowiedniej wersji.
+- Gdy w Twoim repozytorium wystąpi konflikt i go rozwiążesz, git zapamięta to jako domyślny sposób
+rozwiązywania tego typu konfliktów. Jeśli w przyszłości wystąpi konflikt tego samego rodzaju
+(np. na tym samym pliku) to nie będziesz musiał własnoręcznie modyfikować plików/wybierać odpowiedniej wersji.
