@@ -65,3 +65,8 @@ Nazwa rerere pochodzi od reuse recorded resolution. Komenda ta znajduje zastowan
 - Gdy w Twoim repozytorium wystąpi konflikt i go rozwiążesz, git zapamięta to jako domyślny sposób
 rozwiązywania tego typu konfliktów. Jeśli w przyszłości wystąpi konflikt tego samego rodzaju
 (np. na tym samym pliku) to nie będziesz musiał własnoręcznie modyfikować plików/wybierać odpowiedniej wersji.
+- Utwórz repozytorium w przynajmniej jednym plikiem, do którego wpiszesz tekst.
+- Następnie utwórz nową gałąź, na której zmodyfikujesz wyżej wspomniany plik.
+- Przenieś się na gałąź master i scal poboczną gałąź do mastera. Rozwiąż konflikt.
+- Powtórz poprzednie operacje: utwórz nową gałąź, na której zmodyfikujesz plik i scal ją do mastera.
+Czy git kazał Ci rozwiązać ponownie konflikt? Co się wydarzyło, jaka jest zawartość pliku do scaleniu?
