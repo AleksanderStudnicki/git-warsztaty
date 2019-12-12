@@ -55,6 +55,8 @@ https://git-scm.com/docs/git-reflog[]
 
 - Aby wyświelić reflog należy uruchomic komendę `git reflog`
 - Za pomocą reflog możemy uzyskać informację u kluczu migawki, do której utraciliśmy dostęp wskutek manipulacji HEAD
+- Bazując na tym samym repozytorium przesuń HEAD o kilka migawek wstecz. Z tej pozycji utwórz nowy commit, sprawdź `git log`.
+Wróć do migawski sprzed przesunięcia używając `git reflog` oraz `git reset`. Po wykonaniu operacji upewnij się, że znajdujesz się w odpowiednim miejscu za pomocą `git log`.
 
 
 == git rerere
