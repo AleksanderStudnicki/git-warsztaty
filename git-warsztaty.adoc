@@ -37,7 +37,7 @@ Możesz go sprawdzić za pomocą `git log`.
 (jeśli nie wpiszesz nic, przesunie o jedną wstecz).
 - Po przesunięciu wskaźnika zwróć uwagę co tak naprawdę się zmienia. Sprawdź zawartość plików,
 które zmieniały się w ciągu kolejnych migawek `cat [plik]`. Czy odpowiadają one temu co miałeś kilka migawek temu?
-- Wypróbuj `git reset --[soft/mixed/hard] HEAD~`. Sprawdź co się zmienia między poszczególnymi.
+- Wypróbuj `git reset --[soft/hard]/bez parametru HEAD~`. Sprawdź co się zmienia między poszczególnymi.
 
 === Zmiana stanu na pliku na poprzednie migawki
 
