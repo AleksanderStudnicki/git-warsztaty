@@ -41,7 +41,7 @@ które zmieniały się w ciągu kolejnych migawek `cat [plik]`. Czy odpowiadają
 
 === Zmiana stanu na pliku na poprzednie migawki
 
-- Aby zmienić stan pliku na którąś z poprzednich migawek należy użyć komendy `git reset [identyfikator migawki] [nazwa pliku]`
+- Aby zmienić stan pliku na którąś z poprzednich migawek należy użyć komendy `git reset [identyfikator migawki/HEAD~ile_wstecz] [nazwa pliku]`
 
 image::table.png[]
 
