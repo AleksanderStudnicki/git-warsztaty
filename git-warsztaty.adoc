@@ -13,6 +13,8 @@ https://git-scm.com/book/pl/v2/Podstawy-Gita-Cofanie-zmian[]
 
 https://git-scm.com/book/pl/v2/Git-Tools-Reset-Demystified#_git_reset[]
 
+https://marklodato.github.io/visual-git-guide/index-pl.html#reset[]
+
 === Cofanie zmian po git add
 
 - Zaincjalizuj repozytorium
